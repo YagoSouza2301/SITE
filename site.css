@@ -1,0 +1,14 @@
+header{
+    background-color: #7a7b7c;
+    padding: 10px;
+}
+
+header img{
+width: 100px;
+height: auto;
+}
+
+.sessão-1{
+    background-image: url(Imagem/GUAXINIM.jpg);
+    padding: 250px;
+}
