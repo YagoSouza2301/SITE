@@ -1,102 +1,164 @@
-/*usada para informar que existem itens que irão recair sobre todo o HTML*/
+/* usada para informar que existem itens que irão recair sobre todo o HTML */
 * {
-    margin: 0; /*Zerando a margin (top, bottom, rigth, left*/
-    padding: 0; /*Zerando o preenchimento */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Habiitando uma fonte padrão para toda a página*/
-    list-style: none; /*Removendo os estilos de listas */
+    margin: 0;
+    /*Zerando a margin (top, bottom, rigth, left*/
+    padding: 0;
+    /*Zerando o preenchimento */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*Habiitando uma fonte padrão para toda a página*/
+    list-style: none;
+    /*Removendo os estilos de listas */
 }
 
 
 
-/*Chamamos nosso cabeçalho para estilização (Header) */
+/* Chamamos nosso cabeçalho para estilização (Header) */
 header {
-    background-color: #000000; /*  Habilitando uma cor de fundo*/
-    padding: 15px; /*Colocamos um tamanho (Preenchimento) no Header*/
-    display: flex; /*Tornando nosso Header Flex - Deixando os itens lado a lado*/
-    justify-content: space-between; /*Justidicativa do conteúdo - Aqui podemos ajustar conforme nossa necessidade*/
-    align-items: center; /*Alinhamento na Vertical, deixando habilitada ao centro*/
+    background-color: #000000;
+    /*  Habilitando uma cor de fundo*/
+    padding: 15px;
+    /*Colocamos um tamanho (Preenchimento) no Header*/
+    display: flex;
+    /*Tornando nosso Header Flex - Deixando os itens lado a lado*/
+    justify-content: space-between;
+    /*Justidicativa do conteúdo - Aqui podemos ajustar conforme nossa necessidade*/
+    align-items: center;
+    /*Alinhamento na Vertical, deixando habilitada ao centro*/
 }
+
 /* Aqui chamamos nossa logo(img) para estilização */
 header img {
-    width: 150px; /*Largura da Imagem*/
-    height: auto; /*Altura da imagem*/
+    width: 150px;
+    /*Largura da Imagem*/
+    height: auto;
+    /*Altura da imagem*/
 }
-/*Aqui chamamos nossa lista não ordenada para estilização*/
+
+/* Aqui chamamos nossa lista não ordenada para estilização */
 header nav ul {
-    display: flex; /*Tornamos nossa lista não ordenada em (flex) deixando os itens pertencentes a ela, lado a lado*/
+    display: flex;
+    /*Tornamos nossa lista não ordenada em (flex) deixando os itens pertencentes a ela, lado a lado*/
 
 }
-/*Chamamos nossa lista (li) para estibilização*/ 
-header nav ul li { 
-    list-style: none; /*Estilo de Lista desabilitação*/
-    margin-right: 20px; /*Espaçamento entre as (LI)*/
+
+/* Chamamos nossa lista (li) para estibilização */
+header nav ul li {
+    list-style: none;
+    /*Estilo de Lista desabilitação*/
+    margin-right: 20px;
+    /*Espaçamento entre as (LI)*/
 
 }
+
 /* Aqui chamamos nossa âncora (a) para estilização */
 header nav ul li a {
-    text-decoration: none; /*Decoração do texto*(subtitulo) sabilitado (none)*/
-    color: rgb(255, 255, 255); /*Cor da letra*/
+    text-decoration: none;
+    /*Decoração do texto*(subtitulo) sabilitado (none)*/
+    color: rgb(255, 255, 255);
+    /*Cor da letra*/
 }
 
 
-/*Primeira sessão para estilização*/
+/* Primeira sessão para estilização */
 .sessão-01 {
-    background-image: url(Imagem/wolf-725388_1920.jpg); /*Usada para habilitar uma imagem no fundo da sessão*/
-    padding: 250px; /*Preenchimento/ Tamanho da sessão*/
-    background-repeat: no-repeat; /*Para a imagem não se repetir dentro da sessão*/
-    background-size: cover; /*Utilizada para que a imagem preencha todo espaço disponivel*/
-    background-position: center top; /*Posicionamento da Imagem*/
+    background-image: url(Imagem/wolf-725388_1920.jpg);
+    /*Usada para habilitar uma imagem no fundo da sessão*/
+    padding: 250px;
+    /*Preenchimento/ Tamanho da sessão*/
+    background-repeat: no-repeat;
+    /*Para a imagem não se repetir dentro da sessão*/
+    background-size: cover;
+    /*Utilizada para que a imagem preencha todo espaço disponivel*/
+    background-position: center top;
+    /*Posicionamento da Imagem*/
 
-    display: flex; /*Tornando a sessão Flex*/
-    justify-content: center;/*Justidicamos conteúdo ao centro (Horizontal)*/
-    align-items: center; /*Alinhando os itens ao centro (vendical)*/
+    display: flex;
+    /*Tornando a sessão Flex*/
+    justify-content: center;
+    /*Justidicamos conteúdo ao centro (Horizontal)*/
+    align-items: center;
+    /*Alinhando os itens ao centro (vendical)*/
 
 }
+
 /* Chamando o botão da primeira sessão para estilização  */
 .sessão-01 button {
-    width: 150px; /*Largura do botão*/
-    height: 40px; /*Altura do botão*/
-    background-color: rgba(255, 255, 255, 0.123); /*Cor do fundo*/
-    color: rgb(0, 225, 255); /*Cor da letras*/
-    border-radius: 10px; /*Arredondamento da borda*/
- }
+    width: 150px;
+    /*Largura do botão*/
+    height: 40px;
+    /*Altura do botão*/
+    background-color: rgba(255, 255, 255, 0.123);
+    /*Cor do fundo*/
+    color: rgb(0, 225, 255);
+    /*Cor da letras*/
+    border-radius: 10px;
+    /*Arredondamento da borda*/
+}
 
+/* Chamamos nossa segunda sessão para estilização */
 .sessão-02 {
+    padding: 250px;
+    /*Preenchimento/ tamanho da sessão*/
     background-color: #000000;
+    /*Cor de fundo da sessão*/
     display: flex;
-    justify-content: center;
+    /*Tornando a sessão flex e deixando os itens lado a lado*/
+    justify-content: space-evenly;
+    /*Justificação do conteúdo - Usando o Space-evenly como parâmentro*/
+    align-items: center;
+    /*Alinhamento dos itens na vertical - trazendo para o centro*/
+
 }
 
 .sessão-02 img {
     width: 300px;
+    /**/
     height: 300px;
 }
 
 
 .sessão-02 h2 {
     margin-left: 17px;
+    /*Aqui colocamos uma espaçamento nas margens de todos os lados*/
     color: white;
-    font-size: 30px;
+    /*Cor da letra*/
+    font-size: 40px;
+    /*Tamanho da letra*/
+    font-weight: 300;
+    /*Peso da letra*/
+    font-weight: bold;
     display: flex;
     justify-content: center;
+
 }
 
+/* Aqui estamos chamando nosso parágrafo para estilização */
 .sessão-02 p {
-    margin-left: 17px;
+    margin-left: 30px;
+    /*Aqui colocamos uma espaçamento nas margens de todos os lados*/
     color: white;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
+    /*Cor da letra*/
+    font-size: 30px;
+    /*Tamanho da letra*/
+    font-weight: 300;
+    /*Peso da letra*/
+
 }
 
-
+/* Aqui chamamos nossa terceira e última sessão para estilização */
 .sessão-03 {
     background-attachment: fixed;
+    /*Deixamos a imagem "Parada" na sessão, ou seja FIXADA*/
     background-image: url(Imagem/wolf-2309829_1920preto.jpg);
+    /*Habilitamos uma imagem de fundo para a sessão*/
     padding: 250px;
+    /*Tamanho/Preenchimento da sessão*/
     background-repeat: no-repeat;
+    /*Repetição da imagem desabilitada*/
     background-size: cover;
+    /*Preenchimento total da imagem na sessão / espaço disponivel*/
     background-position: center top;
+    /*Posição em que a imagem será apresentada*/
 }
 
 .sessão-03 h2 {
@@ -114,28 +176,43 @@ header nav ul li a {
     font-size: 25px;
 }
 
+/* Aqui habilitamos o rodapé oara estlização */
 footer {
     background-color: #000000;
+    /*Cor do fundo do rodapé*/
     padding: 15px;
+    /*Tamanho/ preenchimento do rodapé*/
     display: flex;
+    /*Tornando a sessão flex e deixando os itens lado a lado*/
     justify-content: center;
+    /*Justificativa do conteúdo ao centro*/
     font-weight: bold;
 }
 
+/* Trazendo nossa lista não ordenada para estilização */
 footer nav ul {
     display: flex;
+    /*Aqui tornamos nossa lista um elemento flex, com isso as listas ficaram lado a lado*/
     justify-content: center;
     align-items: center;
 }
 
+/* Aqui estamos trabalhando diretamente dentro das listas */
 footer nav ul li {
     list-style: none;
     margin-right: 100px;
+    /*Atribuimos um espaço entre as listas, oara que tenham uma melhor visualização*/
 
 }
 
+/* Aqui estamos trabalhando dentro da âncora */
 footer nav ul li a {
     text-decoration: none;
+    /*Decoração do texto desabilitada - retirando o sublinhando*/
     color: rgb(255, 0, 0);
+    /*Cor da letra*/
     font-weight: bold;
+    /*Peso da fonte*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*Tipo familia de fonte*/
 }
